@@ -1,11 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T12:19:02.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mg8LN76P2myz956csNAJ" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T13:21:02.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DHWwVNntpjmTOdaPg9sI" version="21.6.9" type="github">
   <diagram name="Sayfa -1" id="xtpe9JXe6I9Ki-Vc6pJg">
-    <mxGraphModel dx="1050" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="liYBY-GOr5fEWXWgtc3L-1" value="Name&lt;br&gt;Surname&lt;br&gt;E-mail&lt;br&gt;Phone number&lt;br&gt;Password&lt;br&gt;Wallet Name&lt;br&gt;Wallet Account number&lt;br&gt;Transactions(debit/credit)&lt;br&gt;Balance&lt;br&gt;Transaction history&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="91" y="110" width="219" height="290" as="geometry" />
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-1" value="&lt;div&gt;1. User Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi məlumatlarını saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user_id (Primary Key)&lt;/div&gt;&lt;div&gt;username&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;password_hash&lt;/div&gt;&lt;div&gt;full_name&lt;/div&gt;&lt;div&gt;date_of_birth&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-2" value="&lt;div&gt;2. Account Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi hesablarını saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;account_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;account_number&lt;/div&gt;&lt;div&gt;account_type (kredit, debit və s.)&lt;/div&gt;&lt;div&gt;balance&lt;/div&gt;&lt;div&gt;currency&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-3" value="&lt;div&gt;3. Transaction Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl hər bir əməliyyatı (köçürmə, ödəniş, gəlir və s.) saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;transaction_id (Primary Key)&lt;/div&gt;&lt;div&gt;account_id (Foreign Key, Account Table)&lt;/div&gt;&lt;div&gt;transaction_type&lt;/div&gt;&lt;div&gt;amount&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;timestamp&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-4" value="&lt;div&gt;4. Token Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl tokenlara (istifadəçi doğrulama üçün) aid məlumatları saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;token_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;token&lt;/div&gt;&lt;div&gt;expiration&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-5" value="&lt;div&gt;5. Role Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi rollarını saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;role_id (Primary Key)&lt;/div&gt;&lt;div&gt;role_name&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="560" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-6" value="&lt;div&gt;6. User_Role Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi rollarının əlaqələrini saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user_role_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;role_id (Foreign Key, Role Table)&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1010" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7SSCskWFhJTg-lQkZvSg-7" value="&lt;div&gt;7. Transaction_Log Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl əməliyyatların sistem tərəfindən saxlanılması üçün olacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;log_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;account_id (Foreign Key, Account Table)&lt;/div&gt;&lt;div&gt;transaction_id (Foreign Key, Transaction Table)&lt;/div&gt;&lt;div&gt;log_type (məlumat, xəbərdarlıq və s.)&lt;/div&gt;&lt;div&gt;log_message&lt;/div&gt;&lt;div&gt;log_timestamp&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="970" width="250" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
