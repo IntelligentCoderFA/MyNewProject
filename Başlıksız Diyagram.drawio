@@ -1,45 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T21:11:15.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oAXL0C1ajggA-Q45um6s" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T22:09:29.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="I-1RkD_v0Yo8TkkOM-Zz" version="21.6.9" type="github">
   <diagram name="Sayfa -1" id="xtpe9JXe6I9Ki-Vc6pJg">
-    <mxGraphModel dx="1290" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-13" target="WyH_3Dmdl5RkrQWv5j7I-14">
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.013;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-14" target="WyH_3Dmdl5RkrQWv5j7I-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-13" value="Registration&lt;br&gt;&lt;br&gt;Name&lt;br&gt;Surname&lt;br&gt;Passport code&lt;br&gt;e-mail&lt;br&gt;tel&lt;br&gt;birthday&lt;br&gt;password&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="220" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-14" target="WyH_3Dmdl5RkrQWv5j7I-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-14" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="20" width="210" height="210" as="geometry" />
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-14" value="Login&lt;br&gt;&lt;br&gt;&lt;br&gt;email&lt;br&gt;pasword" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="102.5" width="90" height="85" as="geometry" />
         </mxCell>
         <mxCell id="WyH_3Dmdl5RkrQWv5j7I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-15" target="WyH_3Dmdl5RkrQWv5j7I-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="765" y="130" as="sourcePoint" />
-            <mxPoint x="815.2800000000002" y="231.10000000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="795" y="130" />
-              <mxPoint x="795" y="231" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WyH_3Dmdl5RkrQWv5j7I-15" value="TypeOfTravel&lt;br&gt;&lt;br&gt;domestic travrl&lt;br&gt;&amp;nbsp;international travel&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="560" y="20" width="210" height="220" as="geometry" />
+          <mxGeometry x="730" y="360" width="210" height="220" as="geometry" />
         </mxCell>
         <mxCell id="WyH_3Dmdl5RkrQWv5j7I-16" value="Domectic Travel list&lt;br&gt;&lt;br&gt;Baku&amp;nbsp;&lt;br&gt;Ganca&lt;br&gt;Naxçivan&lt;br&gt;Qəbələ&lt;br&gt;Lənkəran&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="820" y="20" width="280" height="100" as="geometry" />
+          <mxGeometry x="1000" y="-90" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WyH_3Dmdl5RkrQWv5j7I-17" value="İnternational Travel&lt;br&gt;&lt;br&gt;Turkiyr&lt;br&gt;Gürcistan&lt;br&gt;Almaniya&lt;br&gt;İngilltere&lt;br&gt;Fransa&lt;br&gt;China&lt;br&gt;Russia&lt;br&gt;İran&lt;br&gt;Qazaxıstan&lt;br&gt;Türkmenistan&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="820" y="160" width="280" height="180" as="geometry" />
+          <mxGeometry x="827" y="187.5" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="WyH_3Dmdl5RkrQWv5j7I-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="350" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-23" target="WyH_3Dmdl5RkrQWv5j7I-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-23" value="User&lt;br&gt;&lt;br&gt;id&lt;br&gt;name&lt;br&gt;surname&lt;br&gt;email&lt;br&gt;pasword" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-27" value="Registration" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-32" value="Searching Flight" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="45" width="180" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
