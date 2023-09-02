@@ -1,86 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T16:01:19.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ynm5FubNpTyhUSXHegEJ" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T21:11:15.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oAXL0C1ajggA-Q45um6s" version="21.6.9" type="github">
   <diagram name="Sayfa -1" id="xtpe9JXe6I9Ki-Vc6pJg">
-    <mxGraphModel dx="1075" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8y4tH2vPr7nnCzWugg39-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7SSCskWFhJTg-lQkZvSg-1" target="7SSCskWFhJTg-lQkZvSg-2">
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-13" target="WyH_3Dmdl5RkrQWv5j7I-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-1" value="&lt;div&gt;1. User Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi məlumatlarını saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user_id (Primary Key)&lt;/div&gt;&lt;div&gt;username&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;password_hash&lt;/div&gt;&lt;div&gt;full_name&lt;/div&gt;&lt;div&gt;date_of_birth&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="170" y="20" width="260" height="260" as="geometry" />
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-13" value="Registration&lt;br&gt;&lt;br&gt;Name&lt;br&gt;Surname&lt;br&gt;Passport code&lt;br&gt;e-mail&lt;br&gt;tel&lt;br&gt;birthday&lt;br&gt;password&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-2" value="&lt;div&gt;2. Account Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi hesablarını saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;account_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;account_number&lt;/div&gt;&lt;div&gt;account_type (kredit, debit və s.)&lt;/div&gt;&lt;div&gt;balance&lt;/div&gt;&lt;div&gt;currency&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="580" y="10" width="210" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7SSCskWFhJTg-lQkZvSg-3" target="7SSCskWFhJTg-lQkZvSg-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="80" y="720" />
-              <mxPoint x="80" y="1130" />
-              <mxPoint x="623" y="1130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-3" value="&lt;div&gt;3. Transaction Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl hər bir əməliyyatı (köçürmə, ödəniş, gəlir və s.) saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;transaction_id (Primary Key)&lt;/div&gt;&lt;div&gt;account_id (Foreign Key, Account Table)&lt;/div&gt;&lt;div&gt;transaction_type&lt;/div&gt;&lt;div&gt;amount&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;timestamp&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="60" y="500" width="220" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7SSCskWFhJTg-lQkZvSg-4" target="7SSCskWFhJTg-lQkZvSg-5">
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-14" target="WyH_3Dmdl5RkrQWv5j7I-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-4" value="&lt;div&gt;4. Token Table:&lt;/div&gt;&lt;div&gt;Bu tokenlara (istifadəçi doğrulama üçün) aid məlumatları saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;token_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;token&lt;/div&gt;&lt;div&gt;expiration&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="400" y="460" width="260" height="260" as="geometry" />
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-14" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.474;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7SSCskWFhJTg-lQkZvSg-5" target="7SSCskWFhJTg-lQkZvSg-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="770" y="400" />
-              <mxPoint x="164" y="400" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-5" value="&lt;div&gt;5. Role Table:&lt;/div&gt;&lt;div&gt;Bu&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;istifadəçi rollarını saxlayacaq.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;role_id (Primary Key)&lt;/div&gt;&lt;div&gt;role_name&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="770" y="480" width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7SSCskWFhJTg-lQkZvSg-6" target="7SSCskWFhJTg-lQkZvSg-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="760" />
-              <mxPoint x="860" y="760" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-6" value="&lt;div&gt;6. User_Role Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl istifadəçi rollarının əlaqələrini saxlayacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user_role_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;role_id (Foreign Key, Role Table)&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="850" width="240" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-7" value="&lt;div&gt;7. Transaction_Log Table:&lt;/div&gt;&lt;div&gt;Bu cədvəl əməliyyatların sistem tərəfindən saxlanılması üçün olacaq.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;log_id (Primary Key)&lt;/div&gt;&lt;div&gt;user_id (Foreign Key, User Table)&lt;/div&gt;&lt;div&gt;account_id (Foreign Key, Account Table)&lt;/div&gt;&lt;div&gt;transaction_id (Foreign Key, Transaction Table)&lt;/div&gt;&lt;div&gt;log_type (məlumat, xəbərdarlıq və s.)&lt;/div&gt;&lt;div&gt;log_message&lt;/div&gt;&lt;div&gt;log_timestamp&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="560" y="800" width="250" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="7SSCskWFhJTg-lQkZvSg-8" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="-190" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-110" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-4" value="&lt;h1&gt;NOTEPAD&lt;/h1&gt;&lt;p&gt;//&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-400" width="590" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.056;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="449.12" y="-79.79" as="sourcePoint" />
-            <mxPoint x="610.8800000000002" y="10.000000000000192" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="609.12" y="-89.79" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-10" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8y4tH2vPr7nnCzWugg39-9">
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="WyH_3Dmdl5RkrQWv5j7I-15" target="WyH_3Dmdl5RkrQWv5j7I-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8y4tH2vPr7nnCzWugg39-11" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="8y4tH2vPr7nnCzWugg39-9">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="11" y="10" as="offset" />
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="130" as="sourcePoint" />
+            <mxPoint x="815.2800000000002" y="231.10000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="795" y="130" />
+              <mxPoint x="795" y="231" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-15" value="TypeOfTravel&lt;br&gt;&lt;br&gt;domestic travrl&lt;br&gt;&amp;nbsp;international travel&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-16" value="Domectic Travel list&lt;br&gt;&lt;br&gt;Baku&amp;nbsp;&lt;br&gt;Ganca&lt;br&gt;Naxçivan&lt;br&gt;Qəbələ&lt;br&gt;Lənkəran&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="20" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-17" value="İnternational Travel&lt;br&gt;&lt;br&gt;Turkiyr&lt;br&gt;Gürcistan&lt;br&gt;Almaniya&lt;br&gt;İngilltere&lt;br&gt;Fransa&lt;br&gt;China&lt;br&gt;Russia&lt;br&gt;İran&lt;br&gt;Qazaxıstan&lt;br&gt;Türkmenistan&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="160" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WyH_3Dmdl5RkrQWv5j7I-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="250" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
